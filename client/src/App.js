@@ -4,8 +4,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Contacts />
+    <div className="container-fluid">
+      <nav>
+        <div className="nav-wrapper center-allign">
+          <a href="/" className="brand-logo">Contacts</a>
+        </div>
+      </nav>
+      <div className="row">
+        <Contacts />
+      </div>
     </div>
   );
 }
